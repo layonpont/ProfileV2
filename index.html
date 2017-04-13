@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"><!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
+    </head>
+
+    <body>
+       <nav class="navbar navbar-default navbar-inverse navbar-fixed-top" id="my-navbar"> <!-- Start Navbar -->
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand navbar-left" href="#"><img src="img/logo4.png" height="50px" width="200px"></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <!--<li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                    </ul>
+                    </li>-->
+                </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="header-container">   
+        <div class="video-container hidden-xs hidden-sm" id="home">                           <!-- start jumbotron -->
+            <video id="video-background" preload muted autoplay loop>
+                <source src="video/BlackKeys.mp4" type="video/mp4">
+                <source src="video/BlackKeys.webm" type="video/webm">
+                <source src="video/BlackKeys.ogv" type="video/ogg">
+            </video>
+        </div>  
+        <div class="photo-container visible-xs visible-sm">
+            <img src="img/mobileHead.png">
+        </div>
+       <div class="container">
+           <div class="row header text-center">
+               <div class="col-md-12">
+                   <h1>Front-End Web Developer</h1>
+                   <h3>The web is the 
+                       <span class="htmlText">&ltfuture&gt</span>
+
+                        and I'm thrilled to be its 
+                
+                        <span class="htmlText">&ltarchitect&gt</span>
+                   </h3>
+
+               </div>
+           </div>
+       </div>
+        
+    </div>
+   
+        <section id="skills"> <!-- Start Skills & Proficiencies -->
+            <div class="container-fluid">
+                <div class="container">
+                        <div class="row">
+                            <h1>Skills & Proficiencies/
+                                <span class="em">I'm always willing to learn new skills</span>
+                            </h1>
+                            
+                        </div>
+                        <div class="row text-center">
+                            <div class="col-sm-12 visible-xs visible-sm">
+                                <canvas id="barChart" style="width: 356; height:400;"></canvas>
+                            </div>
+
+                            <div class="col-sm-3 hidden-xs hidden-sm">
+                                <figure>
+                                    <canvas id="myChart" width="256" height="256" style="width: 175px; height: 175px;"></canvas>
+                                    <figcaption>HTML5</figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-sm-3 hidden-xs hidden-sm">
+                                <figure>
+                                    <canvas id="myChart1" width="256" height="256"></canvas>
+                                    <figcaption>CSS3</figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-sm-3 hidden-xs hidden-sm">
+                                <figure>
+                                    <canvas id="myChart2" width="256" height="256"></canvas>
+                                    <figcaption>Javascript</figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-sm-3 hidden-xs hidden-sm">
+                                <figure>
+                                    <canvas id="myChart3" width="256" height="256"></canvas>
+                                    <figcaption>Java</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="row text-center hidden-xs hidden-sm">
+                            <div class="col-sm-3">
+                                <figure>
+                                    <canvas id="myChart4" width="100" height="100" style="width: 175px; height: 175px;"></canvas>
+                                    <figcaption>Jquery</figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-sm-3">
+                                <figure>
+                                    <canvas id="myChart5" width="100" height="100"></canvas>
+                                    <figcaption>Bootstrap</figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-sm-3">
+                                <figure>
+                                    <canvas id="myChart6" width="256" height="256"></canvas>
+                                    <figcaption>Wordpress</figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-sm-3">
+                                <figure>
+                                    <canvas id="myChart7" width="256" height="256"></canvas>
+                                    <figcaption>ChartJs</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    
+                 </div>
+            </div>
+            
+      </section> <!-- End Skills and Proficiencies -->
+
+       <section id="portfolio"> <!-- Start Portfolio -->
+        <div class="container-fluid portfolio">
+            <div class="container">
+                <!--<div class="page-header" id="portfolio">-->
+                    <div class="row">
+                        <h1>Portfolio/
+                            <span class="em">A taste of the work I've done</span>
+                        </h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="textOverImage text-center" style="background-image:url(img/peachdish.png)"
+                            data-text="Peachdish
+ As a Front-end developer intern, I was in charge of building different landing pages. I also built out different features for the website.
+ 
+HTML5 / CSS3 / Javascript / Bootstrap"></div>
+                            
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="textOverImage text-center" style="background-image:url(img/blacklife.png)"
+                            data-text="Black Life Clothing LLC
+An ecommerse website I made for a client using Wordpress and the Woocommerce plugin. 
+
+
+HTML / CSS / Wordpress"></div> 
+                           
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="textOverImage text-center" style="background-image:url(img/project3.png)"
+                            data-text="Portfolio V2
+                            
+ This is the second version of my portfolio that I created.
+                            
+                            
+HTML5 / CSS3 / Jquery / Bootstrap / Responsive Design / ChartJs"></div>
+                            
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="textOverImage text-center" style="background-image:url(img/project.png)"
+                            data-text="Note Organizer
+During my time at The Iron Yard, some of my fellow programmers and I decided to make group project that would make it easier to take notes of our class lectures. My role was to create the Repositories using Java and I had to create the database tables using PostgreSQL. 
+
+
+HTML / CSS / Javascript / AngularJs / Java"></div>  
+                        </div>
+                        <div class="col-sm-4">
+                             <div class="textOverImage text-center" style="background-image:url(img/slideshow.png)"
+                            data-text="Car Slideshow
+        
+
+I have a passion for cars and decided to make a mini slideshow for my favorite car models.
+
+
+HTML5 / CSS3 / Jquery"></div>
+                            
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="textOverImage text-center" style="background-image:url(img/project2.png)"
+                            data-text="Portfolio V1
+                            
+                                                                                                                This is the first version of my portfolio that I created.
+                            
+                            
+HTML5 / CSS3 / Jquery / Bootstrap"></div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        <!--</div>-->
+      </section> <!-- End Portfolio -->
+
+       <section id="aboutme"> <!-- Start About Me -->
+           <!--<div class="container-fluid aboutme">-->
+               <div class="container">
+                   <div class="row">
+                            <h1>About Me/
+                                <span class="em">What makes me awesome</span>
+                            </h1>
+                   </div>
+                   <div class="row">
+                       <div class="col-sm-12">
+                           <p>I am a passionate Developer that loves to explore and learn. The skills I have acquired as a  developer motivate me to work hard and inspire me to take my programming skills to the next level. Some of the things I’m best known for is an ability to learn fast, problem solve, produce quality work, and with fast production I am able to complete given tasks before a deadline. I enjoy travelling and learning about other cultures and backgrounds so I can definitely work with anyone from any culture or background.</p>
+
+                       </div>
+                   </div>
+                   <div class="row">
+                       <div class="col-sm-12">
+                           <br>
+                       </div>
+
+                   </div>
+                   <div class="row">
+                            <div class="col-sm-6"><img src="img/profilepic3.JPG" height="470" width="350"></div>
+                            <div class="col-sm-6">
+                                <h2 id="started">How It All Started</h2>
+
+                            <p>After High school I began to take an interest in computer programming. When I moved to Atlanta one of my mentors who was intrigued on how much I was interested in programming recommended me to a coding program called Code Start. Through Code Start I went through an intensive 3 month coding bootcamp at the Iron Yard and became a Junior Java Developer.
+The bootcamp began my professional experience and taught me a lot of valuable lessons, but most importantly it got me interested in pursuing a career in Development. 
+<br>
+<br>
+Shortly after graduating from the Iron Yard, I was hired by a startup called PeachDish, where I spent my first couple of months building landing pages and websites although I did not have much Front-End experience. In addition to that, during my time at Peachdish, I was also part of the Digital Marketing & Analytics team where I created ads using tools like Google Adwords, Google Tag manager and more. I also ran my own Ad campaigns. From there my interest in Front-End development grew and for the next couple of months I began teaching myself more HTML, CSS, and Javascript by taking all of the front-end Codecademy and Code Camp courses online. 
+<br>
+<br>
+
+</div>
+
+
+</p>
+                        </div>
+                        
+                    <!--</div> -->
+                 </div>
+           <!--</div>-->
+      </section> <!--End About Me -->
+
+       <section id="contact"> <!-- Start Contact -->
+           <div class="container-fluid contact">
+               <div class="container">
+                    <!--<div class="page-header" id="contact">-->
+                        <div class="row">
+                            <h1>Contact Me/
+                                <span class="em">Want to know more? Let's chat!</span>
+                            </h1>
+                        </div>
+                        <div class="box">
+                            <div class="row">
+                                <form>
+                                    <div class="row">
+                                        <div class="form-group col-lg-4">
+                                            <label>Name</label>
+                                            <input type="text" class="form-control">
+                                        </div>
+                                        <div class="form-group col-lg-4">
+                                            <label>Email</label>
+                                            <input type="email" class="form-control">
+                                        </div>
+                                        <div class="form-group col-lg-4">
+                                            <label>Phone Number</label>
+                                            <input type="tel" class="form-control">
+                                        </div>
+
+                                        <div class="form-group col-lg-12">
+                                            <label>Message</label>
+                                            <textarea class="form-control" rows="6"></textarea>
+                                        </div>
+
+                                         <div class="form-group col-lg-12">
+                                            <input type="hidden" name="save" value="contact">
+                                            <button type="submit" class="btn btn-default">Submit</button>
+                                        </div>
+                                    </div>
+                                </form>
+
+                                
+                                
+                            </div>
+                        </div>
+                    <!--</div> -->
+              </div>
+           </div>
+      </section> <!-- End Contact -->
+      
+
+      <!-- Start Footer -->
+      <section>
+                <footer class="site-footer">
+                    <div class="container-fluid">
+                        <div class="row">
+                           <div class="col-sm-5"></div>
+                            <div class="col-sm-7">
+                                <a class="page-scroll" id="footer-logo" href="https://layonpont.github.io/">
+                                  <img id="brand-image" src="img/logo4.png" alt="Website Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-2">
+                                <i class="fa fa-phone"> &nbsp Hotline <a href="#">(678)-709-1078</a></i>
+                            </div>
+                            <div class="col-sm-2">
+                                <i class="fa fa-envelope-o"> &nbsp elhadi.sulton@gmail.com</i>
+                            </div>
+                            <div class="col-sm-2">
+                                <i class="fa fa-map-marker"> &nbsp Atlanta, GA</i>
+                            </div>
+                            <div class="col-sm-2"></div> 
+                        </div>
+                        <div class="row">
+                            <h3>&nbsp</h3>
+                        </div>
+
+
+                    <div class="bottom-footer"> 
+                        <div class="row">
+                            <div class="col-sm-4"></div>
+                            <div class= "col-sm-8">
+                                <ul class="footer-nav">
+                                    <li>
+                                    <a href="https://www.facebook.com/sulton.elhadi" target="_blank">
+                                            <span class="fa-stack fa-lg">
+                                                <i class="fa fa-circle fa-stack-2x"></i>
+                                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        
+                                        <a href="https://twitter.com/elhadi_sulton" target="_blank">
+                                            <span class="fa-stack fa-lg">
+                                                <i class="fa fa-circle fa-stack-2x"></i>
+                                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li><a href="https://www.linkedin.com/in/sulton-elhadi-161078107/" target="_blank">
+                                            <span class="fa-stack fa-lg">
+                                                <i class="fa fa-circle fa-stack-2x"></i>
+                                                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                            </span>
+                                        </a>
+                                    <li>
+                                        <a href="https://github.com/layonpont" target="_blank">
+                                            <span class="fa-stack fa-lg">
+                                                <i class="fa fa-circle fa-stack-2x"></i>
+                                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2"></div>
+                        <div class="col-sm-10">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+                                                &nbsp &nbsp &nbsp &nbsp &nbsp 
+                                                Copyright &copy; 2017 Coded With Passion By Sulton Elhadi
+                                                 | All Rights Reserved.</div>
+
+                        </div>
+                        
+                            
+                        </div>
+                    </div>
+              </footer>
+  <!-- End Footer --> 
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-3.2.0.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/barChart.js"></script>
+    <script type="text/javascript" src="js/navShrink.js"></script>
+    
+
+    </body>
+
+
+</html>
